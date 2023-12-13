@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.laboratorio_integrato"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.laboratorio_integrato"
         minSdk = 27
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -37,6 +37,7 @@ android {
 
 dependencies {
 
+    implementation(files("../unityLib/unityLibrary.aar"))
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
