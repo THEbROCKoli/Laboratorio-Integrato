@@ -5,6 +5,7 @@
     android:id="@+id/parentCoordinatorLayout"
     android:layout_width="match_parent"
     android:background="#eee"
+    android:hardwareAccelerated="true"
     android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
