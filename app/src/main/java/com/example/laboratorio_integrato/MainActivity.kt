@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.view.WindowInsets
+import android.widget.ImageView
 import androidx.annotation.RequiresApi
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.unity3d.player.UnityPlayer
@@ -45,8 +46,26 @@ class MainActivity : UnityPlayerActivity() {
         val imageView = findViewById<ConstraintLayout>(R.id.image)
         val lowButton = findViewById<View>(R.id.button)
         val ariesButton = findViewById<View>(R.id.buttonAries)
-
+        val eraser = findViewById<ImageView>(R.id.eraser)
+        val logoView = findViewById<ConstraintLayout>(R.id.logoView)
+        val pen = findViewById<ImageView>(R.id.pen)
         Log.d("distanze", "X = ${imageView.x}, Y = ${imageView.y}")
+
+        logoView.setOnClickListener {
+            eraser.animate().apply {
+                eraser.pivotX=0f
+                scaleX(0f)
+            }
+            pen.animate().apply {
+                translationX(-150f)
+
+            }
+            pen.pivotX=0f
+            pen.pivotY=1f
+            rotatePen(pen)
+
+
+        }
 
         lowButton.setOnClickListener {
 
@@ -144,5 +163,22 @@ class MainActivity : UnityPlayerActivity() {
             }
             true
         }
+    }
+    fun rotatePen(View: ImageView){
+        View.animate().apply {
+            rotationBy(-5f)
+        }.withEndAction {
+            View.animate().apply {
+                rotationBy(10f)
+            }.withEndAction {
+                View.animate().apply {
+                    rotationBy(-5f)
+                }
+            }
+        }
+
+        /*View.rotationBy(10f)
+        View.rotationBy(-10f)
+        View.rotationBy(10f)*/
     }
 }
