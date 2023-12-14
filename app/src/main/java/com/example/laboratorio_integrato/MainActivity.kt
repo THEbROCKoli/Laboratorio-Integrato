@@ -72,6 +72,7 @@ class MainActivity : UnityPlayerActivity() {
                  @param cmdLine the current command line arguments, may be null
                  @return the modified command line string or null*/
                 startActivity(unityIntent)
+                //lollo pizza
             }
             anim.start()
         }
