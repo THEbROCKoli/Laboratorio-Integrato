@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/nav_bar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <RelativeLayout
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/homeSelected"
+                android:visibility="visible"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:background="@drawable/selected_item"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/homeSelected"
+                android:textColor="@color/black"
+                android:text="Home"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/centerSelected"
+                android:visibility="visible"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:background="@drawable/selected_item"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/centerSelected"
+                android:textColor="@color/black"
+                android:text="Button"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/story"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            >
+
+            <View
+                android:id="@+id/storySelected"
+                android:visibility="visible"
+                android:layout_width="64dp"
+                android:layout_height="32dp"
+                android:background="@drawable/selected_item"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/storySelected"
+                android:textColor="@color/black"
+                android:text="Story"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

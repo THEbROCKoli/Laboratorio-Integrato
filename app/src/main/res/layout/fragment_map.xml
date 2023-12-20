@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.MapFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xpansion"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mapView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="10dp"
+
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/image"
+            android:layout_width="1793dp"
+            android:layout_height="798dp"
+            android:background="@drawable/img">
+
+            <View
+                android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="560dp"
+                android:layout_marginStart="650dp"
+                android:background="@drawable/animation_list" />
+
+            <View
+                android:id="@+id/buttonAries"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="410dp"
+                android:layout_marginStart="650dp"
+                android:background="@drawable/animation_list"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

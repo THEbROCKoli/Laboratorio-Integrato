@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red"> #DC1F1F</color>
     <color name="unityBackground">#231F20</color>
+    <color name="navigationBar"> #F3F4F9</color>
 </resources>

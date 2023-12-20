@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially" >
+
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="-103dp"
+            android:duration="200"/>
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueTo="-60dp"
+            android:duration="200"/>
+
+    </set>
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="-57dp"
+            android:duration="200"/>
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueTo="-0dp"
+            android:duration="200"/>
+    </set>
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="0dp"
+            android:duration="500"/>
+
+        <set android:ordering="sequentially">
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="-5dp"
+                android:duration="86"/>
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="5dp"
+                android:duration="86"/>
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="-5dp"
+                android:duration="86"/>
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="5dp"
+                android:duration="86"/>
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="-10dp"
+                android:duration="86"/>
+            <objectAnimator
+                android:propertyName="translationY"
+                android:valueTo="0dp"
+                android:duration="86"/>
+        </set>
+    </set>
+
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="53dp"
+            android:duration="200"/>
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueTo="-60dp"
+            android:duration="200"/>
+    </set>
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="0dp"
+            android:duration="200"/>
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueTo="-120dp"
+            android:duration="200"/>
+    </set>
+
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="translationX"
+            android:valueTo="-57dp"/>
+        <objectAnimator
+            android:propertyName="translationY"
+            android:valueTo="0dp"/>
+    </set>
+
+
+</set>

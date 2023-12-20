@@ -3,4 +3,41 @@
     <string name="game_view_content_description" translatable="false">Game view</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_title">Fondazione \nCesare Pavese</string>
+    <string name="placeholder">Holding the place</string>
+    <string name="info">Info</string>
+    <string name="long_placeholder_1"> </string>
+    <string-array name="contents">
+        <item> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In hac habitasse platea dictumst vestibulum rhoncus. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Ipsum nunc aliquet bibendum enim facilisis gravida. Non blandit massa enim nec dui nunc. Sit amet commodo nulla facilisi nullam vehicula. Arcu ac tortor dignissim convallis aenean et tortor. At risus viverra adipiscing at in tellus integer. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Nec feugiat in fermentum posuere urna. Leo urna molestie at elementum eu facilisis. Nibh tellus molestie nunc non. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc. Bibendum enim facilisis gravida neque.</item>
+        <item> Nel cuore di una notte senza tempo, quando le stelle si risvegliano e danzano al ritmo dell’universo, sorge l’enigma delle stelle danzanti. I saggi antichi narrano di un luogo segreto, nascosto tra le costellazioni, dove le stelle prendono vita e si intrecciano in un balletto senza fine.
+
+Le stelle danzanti sono custodi di antichi segreti, portatori di conoscenze che vanno oltre la comprensione umana. Si dice che chiunque riesca a decifrare il loro movimento intricato possa accedere a verità profonde e rivelazioni celesti.
+
+Ma come si può risolvere l’enigma delle stelle danzanti? Forse è necessario abbandonare le logiche terrene e immergersi nell’etere, lasciando che la mente si libri come un uccello notturno. Forse bisogna ascoltare il canto delle stelle, una melodia sottile che vibra nell’aria cosmica.
+
+Alcuni cercatori di verità hanno passato intere vite a scrutare il cielo, a tracciare le traiettorie delle stelle, a cercare un modello nascosto. Ma l’enigma persiste, sfuggente come un sogno che si dissolve all’alba.
+
+Forse, alla fine, l’enigma delle stelle danzanti non è fatto per essere risolto. Forse è la ricerca stessa che ci eleva, che ci spinge a guardare oltre l’orizzonte e a cercare l’infinito. E così, mentre le stelle continuano a danzare nel loro misterioso balletto, noi continueremo a cercare, a sognare e a sperare.</item>
+        <item> Tra le fronde di un antico bosco, dove gli alberi si intrecciano come guardiani silenziosi, esiste un luogo noto come il Bosco delle Ombre. Qui, la luce del sole filtra attraverso le foglie come frammenti di memoria, e ogni passo risuona come un segreto sussurrato.
+
+Le ombre danzano tra gli alberi, prendendo vita quando nessuno le osserva. Si dice che siano gli spiriti di coloro che hanno vagato in questo bosco, cercando risposte o rifugio. Le ombre si muovono con grazia, come ballerini invisibili, e chiunque le incontri può percepire la loro tristezza o la loro gioia.
+
+Al centro del Bosco delle Ombre si trova un antico pozzo. La sua acqua è scura e profonda, e si dice che contenga i ricordi di chiunque vi si sia chinato per bere. Alcuni dicono che il pozzo possa rivelare il futuro o rispondere a domande nascoste, ma solo coloro che hanno il coraggio di affrontare le loro ombre interiori possono scoprirlo.
+
+I viandanti che si avventurano nel Bosco delle Ombre spesso si perdono tra gli alberi, confusi dalle strade che si spostano come serpenti. Ma coloro che ascoltano attentamente possono sentire il canto delle foglie, una melodia antica che li guida verso la verità.
+
+E così, nel crepuscolo, quando il Bosco delle Ombre si anima e le stelle si accendono sopra di esso, i cercatori di segreti si riuniscono. Si scambiano storie e sguardi, sperando di trovare ciò che cercano. E mentre le ombre ballano e il pozzo attende, il mistero del bosco persiste, avvolto nella magia e nell’incertezza.
+        </item>
+        <item> Nel cuore di una notte senza tempo, dove le strade si intrecciano come fili d’argento e le luci danzano sulle superfici, sorge la Città dei Riflessi. Qui, ogni edificio, ogni vetrina, ogni goccia di pioggia riflette un mondo nascosto.
+
+Le strade sono fatte di specchi, e i passanti camminano con cautela, cercando di non rompere la magia. Si dice che chiunque riesca a vedere oltre la superficie riflettente possa scoprire verità celate e visioni del futuro.
+
+Nella Piazza degli Specchi, i mercanti vendono frammenti di realtà. Ci sono specchi che mostrano il passato, altri che rivelano desideri segreti e alcuni che proiettano mondi paralleli. I visitatori si perdono tra le illusioni, cercando di trovare il proprio riflesso autentico.
+
+Al centro della città si erge un palazzo di cristallo, con torri che si estendono verso il cielo. Si dice che al suo interno si trovi uno specchio magico, capace di rispondere a qualsiasi domanda. Ma solo coloro che hanno il coraggio di guardarsi negli occhi possono accedere alla sua saggezza.
+
+I riflessi cambiano con il passare delle stagioni. In primavera, la città brilla di colori vivaci; in estate, i tramonti si riflettono nei canali d’acqua. In autunno, le foglie cadute creano tappeti dorati, mentre in inverno, la neve trasforma tutto in un mondo di cristallo.
+
+E così, mentre i cittadini della Città dei Riflessi continuano a cercare la verità nei loro specchi personali, il mistero persiste. Forse, alla fine, la vera magia sta nell’accettare ciò che vediamo, sia dentro che fuori.</item>
+    </string-array>
 </resources>
