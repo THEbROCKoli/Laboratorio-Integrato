@@ -8,6 +8,7 @@ android {
     compileSdk = 34
     viewBinding.enable=true
 
+
     defaultConfig {
         applicationId = "com.example.laboratorio_integrato"
         minSdk = 27

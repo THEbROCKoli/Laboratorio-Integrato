@@ -8,7 +8,6 @@ import android.view.View
 import androidx.core.animation.doOnEnd
 import com.example.laboratorio_integrato.databinding.ActivitySplashScreenBinding
 
-
 class SplashScreen : AppCompatActivity() {
     lateinit var binding: ActivitySplashScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -99,6 +98,18 @@ class SplashScreen : AppCompatActivity() {
                     }
                 //}
             //}
+
+        /*binding.maskFillerAlt.animate().apply {
+            scaleX(100f)
+            scaleY(100f)
+            duration=1000
+        }*/
+        binding.maskFiller.scaleX=0f
+        binding.maskFiller.pivotX=0f
+        binding.maskFiller.animate().apply {
+            scaleX(2f)
+            duration=1000
+        }
         setContentView(binding.root)
     }
     private fun fromDPToPixels(desiredDP: Float): Float {
